@@ -30,7 +30,11 @@ controller control = controller(primary);
 
 motor gato = motor(PORT6, ratio6_1, true);
 
+motor rodillo = motor(PORT3, ratio18_1, false);
+
 smartdrive Drivetrain = smartdrive(lefft , Right, DrivetrainInertial, 299.24, 320, 40, mm, 0.6666666666666666);
+
+bumper boton =(Brain.ThreeWirePort.C);
 
 // VEXcode generated functions
 
